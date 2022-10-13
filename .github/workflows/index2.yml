@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset= "utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PROYECTO EQUIPO BETA 2</title>
+<!---BOOSTRAP5-->
+<!---<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+ rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+ crossorigin="anonymous">---->
+ <link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="ESTILO2.css">
+</head>
+
+<body>
+  <nav class="contenedor1">
+    <div class="ingresar">
+        <input type="submit" class="ingresar_boton"
+         value="Home" onclick="location.href=
+         'INDEX1.html'">
+    </div>
+  </nav>
+
+    <div class="container"> 
+      <div class="row" style="margin-top:50px"> 
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <form action="" class="formulario_registro">
+                  
+                    
+            <input type="text" class="input">
+            <label for="" class="label">Usuario</label>
+            <input type="password" class="input">
+            <label for="" class="label">Contraseña</label>
+            <input type="submit" class="boton" value="Ingresar">
+            </form>
+        </div>
+      </div> 
+    </div>      
+      
+   
+
+      <script>
+        var inputs = document.getElementsByClassName("input");
+      for (var i = 0; i < inputs.length; i++) {
+        inputs[i].addEventListener("keyup", function () {
+        if (this.value.length >= 1) {
+           this.nextElementSibling.classList.add("fijar");
+         } else {
+           this.nextElementSibling.classList.remove("fijar");
+         }
+        });
+      }
+      
+    </script>
+    
+
+
+    </body>
+
+</html>
