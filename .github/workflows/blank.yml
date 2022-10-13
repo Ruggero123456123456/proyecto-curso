@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset= "utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PROYECTO EQUIPO BETA</title>
+<!---BOOSTRAP5-->
+<!---<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+ rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+ crossorigin="anonymous">---->
+ <link rel="stylesheet" href="bootstrap.min.css">
+ <link rel="stylesheet" href="ESTILO1.css">
+</head>
+
+<body>
+    <nav class="contenedor1">
+        <div class="ingresar">
+            <input type="submit" class="ingresar_boton"
+             value="Iniciar sesión" onclick="location.href=
+             'INDEX2.html'">
+        </div>
+      </nav>
+
+<div class="container"> 
+   <div class="row" style="margin-top:50px"> 
+       <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7"> 
+      <h1 class="titulos">Constanza Gonzáles DellaOtt</h1>
+      <hr>
+       </div> 
+       <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5"> 
+      <h2 class="titulos" style="text-align:left; color:rgb(255, 132, 0);
+      margin-top:28px; margin-left:0">Psicóloga Clínica </h2>
+      <h3 style="color:#6F97FF"><i>Niños, Jóvenes y Adultos</i></h3>
+      <hr>
+       </div>
+    </div>  
+    
+<div class="row" style="margin-top:80px">
+    
+
+    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+    <img   style="width:100%; height:90%"  src="psico2.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+    <div class="text__information_cover">
+    <p><strong> Biografía profesional
+            </strong><br><br><br>Desde pequeña <strong>Constanza Gonzales</strong> se destacó 
+                como deportista en el 
+                <strong>Colegio des France</strong>, donde cursó toda su enseñanza básica
+                 y media; 
+                llegando a ser seleccionada nacional de Hockey sobre césped.<br><br><br>
+                Pero su amor por la ciencia pudo más y, en 2015, postuló a la carrera de
+                <strong>Psicología</strong>; ubicándose entre los primeros puntajes de su 
+                generación <br><br><br>
+                Desde ahí en adelante, su amor por la disciplina, la hizo 
+                realizar varios post-grados
+                y post-títulos en el área. Especializandose, principalmente, en la realidad de los 
+                conflictos internos que atraviesan los adolescentes en una sociedad cada 
+                vez más competitiva y demandante, en la cual la ansiedad es un denominador
+                 común en el
+                quehacer de jóvenes de todas las nacionalidades y culturas.
+                </p>
+                <br>
+                <hr>
+    </div>
+ 
+    
+    </div>
+</div>    
+
+
+
+<div class="row">
+    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+        <div class="texto">
+            <div class="registre">
+                <h4 style="text-align:left; margin-top: -90px;">Registre sus datos</h4>
+                </div>    
+            <p>
+                La salud mental es uno de los aspectos más importantes para el desarrollo
+                pleno del ser humano; incidiendo, incluso, en el nivel de bienestar físico.<br>
+                Sabemos que la vida moderna nos somete a grados de stress extremos que influyen 
+                negativamente en nuestra felicidad y en nuestra relación con el entorno.<br>
+                Nuestro objetivo es mejorar su nivel de plenitud y satisfacción para 
+                con los distintos aspectos de la vida personal y profesional.<br>
+                Nuestro enfoque incorpora elementos de la psicoterapia transpersonal y 
+                de terapias 
+                complementarias, como meditación, mindfulness, flores de Bach, Aroma terapia
+                , logrando un tratamiento integral y holístico.
+               
+                 
+                </p>
+                <br><br>
+                <hr>
+                <br><br><br><br><br>
+                
+        </div>  
+    </div>
+
+    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <form action="" class="formulario">
+               
+                
+            <input type="text" class="input">
+            <label for="" class="label">Nombre</label>
+            <input type="text" class="input">
+            <label for="" class="label">Rut</label>
+            <input type="text" class="input">
+            <label for="" class="label">Teléfono</label>
+            <input type="text" class="input">
+            <label for="" class="label">Correo</label> 
+            <div>
+            <input type="submit" class="boton" value="Guardar"> 
+            
+            </div>
+            </form>
+            
+            
+            
+
+</div>
+
+
+   
+
+    <script>
+        var inputs = document.getElementsByClassName("input");
+      for (var i = 0; i < inputs.length; i++) {
+        inputs[i].addEventListener("keyup", function () {
+        if (this.value.length >= 1) {
+           this.nextElementSibling.classList.add("fijar");
+         } else {
+           this.nextElementSibling.classList.remove("fijar");
+         }
+        });
+      }
+      
+    </script> 
+    
+    <nav class="footer"> 
+     <div>
+    <p>Teléfono     -  (45) 2 410924<br>
+       Email   -   Constanza.psico.happy@gmail.com &nbsp &nbsp &nbsp &nbsp<br>
+       Dirección  -  San Martín 1819, Temuco</p>
+    </div>
+    </nav>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
